@@ -38,11 +38,9 @@ jobs:
       - run:
           name: deploy public to github doc
           command: |
-              ls public
+              mkdir public
               git clone git@github.com:kazuno47/hugo-blog.git public
-              ls public
               hugo
-              pwd && ls -al
               cd public && git add .
               cd public && git commit -m "[ci skip] publish"
               cd public && git push origin master
