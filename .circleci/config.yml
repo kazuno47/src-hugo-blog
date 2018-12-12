@@ -25,6 +25,8 @@ jobs:
       - run:
           name: setting git
           command: |
+              git submodule sync
+              git submocule update --init --recursive
               git config --global user.name "kazuno47"
               git config --global user.email "kazuno@auo.jp"
       - run:
