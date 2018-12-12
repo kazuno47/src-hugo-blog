@@ -37,7 +37,7 @@ jobs:
               git clone git@github.com:kazuno47/src-hugo-blog.git
       - run:
           name: deploy public to github doc
-          commands:
+          commands: 
               - git clone git@github.com:kazuno47/hugo-blog.git public
               - hugo
               - cd public && git add .
