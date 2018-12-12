@@ -8,4 +8,4 @@ draft: false
 
 circleciでの自動デプロイテスト
 
-権限
+
