@@ -25,8 +25,6 @@ jobs:
       - run:
           name: setting git
           command: |
-              git submodule sync
-              git submocule update --init --recursive
               git config --global user.name "kazuno47"
               git config --global user.email "kazuno@auo.jp"
       - run:
@@ -40,6 +38,7 @@ jobs:
       - run:
           name: deploy public to github doc
           command: |
+              git clone git@github.com:kazuno47/hugo-blog.git public
               hugo
               cd public && git add .
               cd public && git commit -m "[ci skip] publish"
