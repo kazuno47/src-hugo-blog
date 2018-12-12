@@ -1,4 +1,6 @@
 baseURL = "http://hugo.kazunobu.info"
-languageCode = "ja-jp"
-title = "My New Hugo Site"
+languageCode = "ja"
+defaultContentLanguage = "jp"
+title = "Kazunobu.info tech blog"
 theme = "hugo-theme-learn"
+author = "kazunobu"
