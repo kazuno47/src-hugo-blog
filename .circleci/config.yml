@@ -34,12 +34,15 @@ jobs:
       - run:
           name: clone src
           command: |
+              pwd && ls -al
               git clone git@github.com:kazuno47/src-hugo-blog.git
       - run:
           name: deploy public to github doc
           command: |
               git clone git@github.com:kazuno47/hugo-blog.git public
+              pwd && ls -al
               hugo
+              pwd && ls -al
               cd public && git add .
               cd public && git commit -m "[ci skip] publish"
               cd public && git push origin master
