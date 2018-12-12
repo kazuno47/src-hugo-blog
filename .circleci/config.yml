@@ -20,7 +20,9 @@ jobs:
     working_directory: /go/src/github.com/{{ORG_NAME}}/{{REPO_NAME}}
     steps:
       - checkout
-
+      - add_ssh_keys:
+          fingerprints:
+            - "19:41:45:5a:4d:aa:29:68:a9:0a:17:23:64:ae:14:6b"
       # specify any bash command here prefixed with `run: `
       - run:
           name: setting git
