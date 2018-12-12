@@ -7,3 +7,5 @@ draft: false
 # hugo + circleci + github-pages
 
 circleciでの自動デプロイテスト
+
+権限
