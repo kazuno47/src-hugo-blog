@@ -38,8 +38,11 @@ jobs:
       - run:
           name: deploy public to github doc
           command: |
+              ls && echo debug1
               git clone git@github.com:kazuno47/hugo-blog.git public
+              ls && echo debug2
               hugo
+              ls && echo debug3
               cd public && git add .
               cd public && git commit -m "[ci skip] publish"
               cd public && git push origin master
