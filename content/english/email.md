@@ -4,6 +4,8 @@ date: 2018-12-13T11:10:48+09:00
 draft: false
 ---
 
+とりあえず使いそうな英語例文を羅列していく。後々、グルーピングなどできればよい。
+
 <table>
     <tr>
         <th>#</th>
@@ -19,8 +21,8 @@ draft: false
     </tr>
     <tr>
         <td>2</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>"I will be hard to getthing this up before {0} . Would it be OK if we have the {1} {2}".format(time1, work, time2)</td>
+        <td>time1までは忙しくて対応できない。もしよければ work は time2 までにさせてください。</td>
+        <td>end of the year, xx deployed, before January dd などが入る</td>
     </tr>
 </table>
