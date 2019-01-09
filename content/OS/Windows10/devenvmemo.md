@@ -47,4 +47,5 @@ HP ELITEBOOK は Shift + Fn で function key をロックできる。
 - JetBrains toolbox
 - rlogin
 - Hugo
-
+- Microsoft To-Do
+  - スタートアップに登録する場合、ファイル名を指定して実行から「shell:appsfolder」を実行すると、エクスプローラが開くので、そこにショートカットを作成し、yappa と同じくスタートアップフォルダに配置する。
