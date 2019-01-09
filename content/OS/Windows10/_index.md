@@ -1,19 +1,6 @@
-# Windows 10
+---
+title: "Windows10"
+date: 2019-01-09T16:21:12+09:00
+draft: false
+---
 
-<table>
-    <tr>
-        <th></th>
-        <th></th>
-        <th></th>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-</table>
