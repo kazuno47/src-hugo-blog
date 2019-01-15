@@ -1,7 +1,7 @@
 ---
 title: "Post_java8"
 date: 2019-01-15T11:19:35+09:00
-draft: true
+draft: false
 ---
 
 詳細は未調査だが、備忘録としてサイトリンクと注意点。
